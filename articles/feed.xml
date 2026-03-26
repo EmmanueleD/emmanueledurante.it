@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emmanuele Durante</title>
+    <link>https://emmanueledurante.it</link>
+    <description>Personal blog about learning, development, and life.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://emmanueledurante.it/articles/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Studying Three.js</title>
+      <link>https://emmanueledurante.it/articles/studying-three-js.html</link>
+      <guid>https://emmanueledurante.it/articles/studying-three-js.html</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Three.js is a JavaScript library for rendering 3D graphics in the browser. I am following the Bruno Simon course on Three.js Journey.]]></description>
+    </item>
+    
+    <item>
+      <title>Body movement</title>
+      <link>https://emmanueledurante.it/articles/body-movement.html</link>
+      <guid>https://emmanueledurante.it/articles/body-movement.html</guid>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[I am struggling a bit with doing exercise constantly, it's very frustrating because I would really like to do it.]]></description>
+    </item>
+    
+    <item>
+      <title>Arabic language</title>
+      <link>https://emmanueledurante.it/articles/arabic-language.html</link>
+      <guid>https://emmanueledurante.it/articles/arabic-language.html</guid>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Documenting my journey learning Arabic from scratch following Asmae's YouTube course.]]></description>
+    </item>
+    
+    <item>
+      <title>How to build this website</title>
+      <link>https://emmanueledurante.it/articles/how-to-build-this-website.html</link>
+      <guid>https://emmanueledurante.it/articles/how-to-build-this-website.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[This website is built using HTML, CSS, and JavaScript. I would like this website to be very simple but also "WOW!"]]></description>
+    </item>
+  </channel>
+</rss>

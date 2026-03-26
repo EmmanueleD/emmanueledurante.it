@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+  ARTICLE DRAFT TEMPLATE
+  
+  HOW TO USE THIS TEMPLATE:
+  1. Copy this file to the articles folder and rename it to your article slug
+     (e.g., my-new-article.html)
+  2. Fill in all the REQUIRED sections marked with [REQUIRED]
+  3. Remove these comments before publishing
+  4. Update the RSS feed (articles/feed.xml) with the new article
+  
+  METADATA PLACEHOLDERS:
+  - data-date: ISO 8601 format (YYYY-MM-DD)
+  - data-description: 1-2 sentence summary for SEO and RSS
+  - data-tags: comma-separated list of relevant tags
+-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- [REQUIRED] Update title with your article title -->
+  <title><!-- [REQUIRED] Article Title --> - Emmanuele Durante</title>
+  
+  <!-- [REQUIRED] Write a compelling meta description (150-160 chars) -->
+  <meta name="description" content="<!-- [REQUIRED] Meta description for SEO -->">
+  
+  <!-- Open Graph tags for social sharing -->
+  <meta property="og:title" content="<!-- [REQUIRED] Article Title -->">
+  <meta property="og:description" content="<!-- [REQUIRED] Same as meta description above -->">
+  <meta property="og:type" content="article">
+  <!-- [REQUIRED] Update URL with your article slug -->
+  <meta property="og:url" content="https://emmanueledurante.it/articles/<!-- [REQUIRED] article-slug -->.html">
+  
+  <link rel="stylesheet" href="../graffiti-ui.css">
+</head>
+
+<body>
+  <main class="layout-readable">
+    <header class="article-header">
+      <!-- [REQUIRED] Article title -->
+      <h1><!-- [REQUIRED] Article Title --></h1>
+      
+      <p class="article-meta">
+        <!-- [REQUIRED] Publication date in ISO 8601 format -->
+        <time datetime="<!-- [REQUIRED] YYYY-MM-DD -->"><!-- [REQUIRED] Human readable date, e.g., "January 15, 2026" --></time>
+      </p>
+      
+      <button class="button minimal" onclick="window.location.href = '../index.html#blog-index';">Back</button>
+    </header>
+
+    <!-- [REQUIRED] Update data-date, data-description, and data-tags -->
+    <article 
+      data-date="<!-- [REQUIRED] YYYY-MM-DD -->" 
+      data-description="<!-- [REQUIRED] Brief description -->" 
+      data-tags="<!-- [REQUIRED] tag1,tag2,tag3 -->"
+    >
+      <div class="article-content">
+        <!-- [REQUIRED] Write your article content here -->
+        <p>Start writing your article...</p>
+      </div>
+    </article>
+
+    <footer class="article-footer">
+      <a href="../index.html#blog-index" class="button minimal">← Back to all articles</a>
+    </footer>
+  </main>
+</body>
+
+</html>

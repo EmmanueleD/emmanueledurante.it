@@ -4,21 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>How to build this website</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <title>How to build this website - Emmanuele Durante</title>
+  <meta name="description" content="Building a simple but impressive personal website using vanilla HTML, CSS, and JavaScript with no build step.">
+  <meta property="og:title" content="How to build this website">
+  <meta property="og:description" content="Building a simple but impressive personal website using vanilla HTML, CSS, and JavaScript.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://emmanueledurante.it/articles/how-to-build-this-website.html">
+  <link rel="stylesheet" href="../graffiti-ui.css">
 </head>
 
 <body>
-  <header>
-    <h1>How to build this website</h1>
-    <button onclick="window.location.href = '../index.html#blog-index';">Back</button>
-  </header>
+  <main class="layout-readable">
+    <header class="article-header">
+      <h1>How to build this website</h1>
+      <p class="article-meta">
+        <time datetime="2026-01-01">January 1, 2026</time>
+      </p>
+      <button class="button minimal" onclick="window.location.href = '../index.html#blog-index';">Back</button>
+    </header>
 
-  <article>
-    <p>This website is built using HTML, CSS, and JavaScript.</p>
-    <p>I would like this website to be very simple but also "WOW!"</p>
-  </article>
+    <article data-date="2026-01-01" data-description="Building a simple but impressive personal website using vanilla HTML, CSS, and JavaScript with no build step." data-tags="web,development,personal">
+      <div class="article-content">
+        <p>This website is built using HTML, CSS, and JavaScript.</p>
+        <p>I would like this website to be very simple but also "WOW!"</p>
+      </div>
+    </article>
+
+    <footer class="article-footer">
+      <a href="../index.html#blog-index" class="button minimal">← Back to all articles</a>
+    </footer>
+  </main>
 </body>
 
 </html>

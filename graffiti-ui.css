@@ -2342,10 +2342,63 @@ dialog > .close {
       pointer-events: none;
     }
   }
-  @media (prefers-color-scheme: dark) {
-    & > a,
-    & > button {
-      border: var(--border-1);
+    @media (prefers-color-scheme: dark) {
+      & > a,
+      & > button {
+        border: var(--border-1);
+      }
     }
+  }
+}
+
+/* Article Layout - Shared article structure styles */
+
+.article-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--vs-s);
+  margin-block-end: var(--vs-l);
+  padding-block-end: var(--vs-m);
+  border-bottom: var(--border-1);
+
+  > h1 {
+    margin-block: 0;
+  }
+}
+
+.article-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--pad-m);
+  color: var(--fg-5);
+  --fl: -1;
+
+  > time {
+    font-style: normal;
+  }
+
+  > * + *::before {
+    content: "·";
+    margin-inline-end: var(--pad-s);
+  }
+}
+
+.article-content {
+  line-height: var(--lh-l);
+
+  > p:first-child {
+    margin-block-start: 0;
+  }
+
+  > p:last-child {
+    margin-block-end: 0;
+  }
+}
+
+.article-footer {
+  margin-block-start: var(--vs-xl);
+  padding-block-start: var(--vs-m);
+  border-top: var(--border-1);
+}
   }
 }
